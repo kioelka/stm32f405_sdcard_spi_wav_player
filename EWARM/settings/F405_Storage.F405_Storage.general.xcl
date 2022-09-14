@@ -1,0 +1,15 @@
+"D:\Program Files\IAR Systems\Embedded Workbench 8.4\arm\bin\armproc.dll" 
+
+"D:\Program Files\IAR Systems\Embedded Workbench 8.4\arm\bin\armstlink2.dll" 
+
+"E:\KELKA\F405_Storage\EWARM\F405_Storage\Exe\F405_Storage.out" 
+
+--plugin="D:\Program Files\IAR Systems\Embedded Workbench 8.4\arm\bin\armbat.dll" 
+
+--device_macro="D:\Program Files\IAR Systems\Embedded Workbench 8.4\arm\config\debugger\ST\STM32F4xx.dmac" 
+
+--flash_loader="D:\Program Files\IAR Systems\Embedded Workbench 8.4\arm\config\flashloader\ST\FlashSTM32F4xxx.board" 
+
+
+
+
