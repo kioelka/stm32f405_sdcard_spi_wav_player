@@ -20,7 +20,7 @@
         <stlinkResetStrategy>2</stlinkResetStrategy>
     </StLinkDriver>
     <DebugChecksum>
-        <Checksum>3249600731</Checksum>
+        <Checksum>170134878</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -56,6 +56,9 @@
         <ITMportsLogFile>0</ITMportsLogFile>
         <ITMlogFile>$PROJ_DIR$\ITM.log</ITMlogFile>
     </SWOTraceHWSettings>
+    <watch_formats>
+        <Fmt0>{W}42:curWavIdx	3	0</Fmt0>
+    </watch_formats>
     <Trace2>
         <Enabled>0</Enabled>
         <ShowSource>0</ShowSource>
