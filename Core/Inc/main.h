@@ -29,6 +29,7 @@ extern "C" {
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx_hal.h"
+#include "periphery_init.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -60,6 +61,9 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define SPI_CS_Pin GPIO_PIN_3
 #define SPI_CS_GPIO_Port GPIOA
+
+#define BUFFER_SIZE 0x200
+
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

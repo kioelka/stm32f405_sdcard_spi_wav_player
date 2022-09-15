@@ -362,6 +362,7 @@
                     <state>$PROJ_DIR$/../USB_DEVICE/Target</state>
                     <state>$PROJ_DIR$/../Middlewares/ST/STM32_USB_Device_Library/Core/Inc</state>
                     <state>$PROJ_DIR$/../Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc</state>
+                    <state>$PROJ_DIR$/../Periphery</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -1118,6 +1119,15 @@
                         <name>$PROJ_DIR$\..\FATFS\Target\user_diskio.c</name>
                     </file>
                 </group>
+            </group>
+            <group>
+                <name>Periphery</name>
+                <file>
+                    <name>$PROJ_DIR$\..\Periphery\periphery_init.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Periphery\periphery_init.h</name>
+                </file>
             </group>
             <group>
                 <name>USB_DEVICE</name>
