@@ -40,6 +40,6 @@ DRESULT SD_disk_ioctl (BYTE pdrv, BYTE cmd, void* buff);
 extern SPI_HandleTypeDef 	hspi1;
 #define HSPI_SDCARD		 	&hspi1
 #define	SD_CS_PORT			GPIOA
-#define SD_CS_PIN			GPIO_PIN_4
+#define SD_CS_PIN			GPIO_PIN_3
 
 #endif
